@@ -1,21 +1,10 @@
-# Plugin Boilerplate
+# Genesis Disable AdSense Auto Ads
 
-Short summary about the plugin.
+Hides the references to AdSense Auto Ads in Genesis Framework 2.6.0 and above.
 
 ## Description 
 
 Long description about the plugin.
-
-## Screenshots
-
-![Alt text for screenshot 1 HERE](assets-repo/screenshot-1.png)  
-_Screenshot 1 caption HERE._
-
----
-
-![Alt text for screenshot 2 HERE](assets-repo/screenshot-2.png)  
-_Screenshot 2 caption HERE._
-
 
 ## Installation
 
@@ -40,7 +29,7 @@ Check out the Codex for more information about [installing plugins manually](htt
 In a terminal, browse to your `/wp-content/plugins/` directory and clone this repository:
 
 ~~~sh
-git clone git@github.com:GaryJones/plugin-slug.git
+git clone git@github.com:GaryJones/genesis-disable-adsense-auto-ads.git
 ~~~
 
 Then go to your Plugins screen and click __Activate__.
@@ -48,7 +37,7 @@ Then go to your Plugins screen and click __Activate__.
 ### Composer
 
 ~~~sh
-compose require gamajo/plugin-slug
+compose require gamajo/genesis-disable-adsense-auto-ads
 ~~~
 
 ## Updates
@@ -74,4 +63,4 @@ The code in this project is licensed under [GPL v2 or later](LICENSE).
 ## Credits
 
 Built by [Gary Jones](https://twitter.com/GaryJ)  
-Copyright 2017 [Gamajo Tech](https://gamajo.com)
+Copyright 2018 [Gamajo](https://gamajo.com)
