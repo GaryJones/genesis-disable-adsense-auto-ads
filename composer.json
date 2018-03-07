@@ -1,0 +1,45 @@
+{
+	"name": "gamajo/genesis-disable-adsense-auto-ads",
+	"description": "Hides the references to AdSense Auto Ads in Genesis Framework 2.6.0 and above.",
+	"keywords": [
+		"plugin",
+		"genesis-disable-adsense-auto-ads"
+	],
+	"type": "wordpress-plugin",
+	"license": "GPL-2.0-or-later",
+	"homepage": "https://github.com/GaryJones/genesis-disable-adsense-auto-ads",
+	"authors": [
+		{
+			"name": "Gary Jones",
+			"homepage": "https://gamajo.com",
+			"role": "Developer"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/GaryJones/genesis-disable-adsense-auto-ads/issues",
+		"source": "https://github.com/GaryJones/genesis-disable-adsense-auto-ads"
+	},
+	"config": {
+		"sort-order": true
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"require": {
+		"php": "^5.3|^7",
+		"composer/installers": "^1.4",
+		"roave/security-advisories": "dev-master",
+		"sllh/composer-versions-check": "^2.0"
+	},
+	"require-dev": {
+		"dealerdirect/phpcodesniffer-composer-installer": "^0.4.4",
+		"squizlabs/php_codesniffer": "^3.2",
+		"sirbrillig/phpcs-variable-analysis": "^2.0",
+		"wimg/php-compatibility": "dev-master",
+		"wp-coding-standards/wpcs": "dev-develop"
+	},
+	"autoload": {
+		"psr-4": {
+			"Gamajo\\GenesisDisableAdSenseAutoAds\\": "src/"
+		}
+	}
+}
